@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <contributor>
+            <authoring_tool>3D City Database Importer/Exporter, version 5.5.0; Chair of Geoinformatics, Technical University of Munich</authoring_tool>
+        </contributor>
+        <created>2024-11-14T22:33:19.102</created>
+        <modified>2024-11-14T22:33:19.102</modified>
+        <unit meter="1.0" name="meters"/>
+        <up_axis>Z_UP</up_axis>
+    </asset>
+    <library_materials>
+        <material id="default_ai_0.2_sh_0.2_tr_0.0_dc_r_1.0_g_0.2_b_0.2_sc_r_1.0_g_1.0_b_1.0_ec_r_0.0_g_0.0_b_0_mat">
+            <instance_effect url="#default_ai_0.2_sh_0.2_tr_0.0_dc_r_1.0_g_0.2_b_0.2_sc_r_1.0_g_1.0_b_1.0_ec_r_0.0_g_0.0_b_0_eff"/>
+        </material>
+        <material id="default_ai_0.2_sh_0.2_tr_0.0_dc_r_0.8_g_0.8_b_0.8_sc_r_1.0_g_1.0_b_1.0_ec_r_0.0_g_0.0_b_0_mat">
+            <instance_effect url="#default_ai_0.2_sh_0.2_tr_0.0_dc_r_0.8_g_0.8_b_0.8_sc_r_1.0_g_1.0_b_1.0_ec_r_0.0_g_0.0_b_0_eff"/>
+        </material>
+    </library_materials>
+    <library_effects>
+        <effect id="default_ai_0.2_sh_0.2_tr_0.0_dc_r_1.0_g_0.2_b_0.2_sc_r_1.0_g_1.0_b_1.0_ec_r_0.0_g_0.0_b_0_eff">
+            <profile_COMMON>
+                <technique sid="COMMON">
+                    <lambert>
+                        <emission>
+                            <color>0.0 0.0 0.0 1.0</color>
+                        </emission>
+                        <diffuse>
+                            <color>1.0 0.2 0.2 1.0</color>
+                        </diffuse>
+                        <reflective>
+                            <color>1.0 1.0 1.0 1.0</color>
+                        </reflective>
+                        <reflectivity>
+                            <float>0.2</float>
+                        </reflectivity>
+                        <transparent opaque="A_ONE">
+                            <color>1.0 1.0 1.0 1.0</color>
+                        </transparent>
+                        <transparency>
+                            <float>1.0</float>
+                        </transparency>
+                    </lambert>
+                </technique>
+                <extra>
+                    <technique profile="GOOGLEEARTH">
+                        <double_sided>0</double_sided>
+                    </technique>
+                </extra>
+            </profile_COMMON>
+        </effect>
+        <effect id="default_ai_0.2_sh_0.2_tr_0.0_dc_r_0.8_g_0.8_b_0.8_sc_r_1.0_g_1.0_b_1.0_ec_r_0.0_g_0.0_b_0_eff">
+            <profile_COMMON>
+                <technique sid="COMMON">
+                    <lambert>
+                        <emission>
+                            <color>0.0 0.0 0.0 1.0</color>
+                        </emission>
+                        <diffuse>
+                            <color>0.8 0.8 0.8 1.0</color>
+                        </diffuse>
+                        <reflective>
+                            <color>1.0 1.0 1.0 1.0</color>
+                        </reflective>
+                        <reflectivity>
+                            <float>0.2</float>
+                        </reflectivity>
+                        <transparent opaque="A_ONE">
+                            <color>1.0 1.0 1.0 1.0</color>
+                        </transparent>
+                        <transparency>
+                            <float>1.0</float>
+                        </transparency>
+                    </lambert>
+                </technique>
+                <extra>
+                    <technique profile="GOOGLEEARTH">
+                        <double_sided>0</double_sided>
+                    </technique>
+                </extra>
+            </profile_COMMON>
+        </effect>
+    </library_effects>
+    <library_geometries>
+        <geometry id="geometry0">
+            <mesh>
+                <source id="geometry0-position">
+                    <float_array id="geometry0-position-array" count="105">0.0 0.0 0.0 0.0 0.0 7.59 2.887 0.893 7.59 2.887 0.893 0.0 4.647 -4.972 11.009 4.647 -4.972 0.0 7.902 -3.984 0.0 7.902 -3.984 11.003 0.252 -0.821 0.0 0.252 -0.821 7.59 -0.349 -3.636 0.0 -0.349 -3.636 10.615 -1.093 -1.223 8.55 -1.093 -1.223 0.0 -0.118 -4.417 0.0 -0.118 -4.417 11.282 6.524 -11.022 0.0 6.524 -11.022 8.687 2.277 -12.229 8.687 2.277 -12.229 0.0 3.169 0.073 7.59 1.394 -9.351 0.0 1.892 -10.973 10.61 0.581 -6.697 11.995 0.147 -5.283 11.995 0.143 -5.269 12.01 6.365 1.039 0.0 6.365 1.039 8.563 7.598 -2.99 12.01 3.169 0.073 0.0 6.093 -9.635 10.653 6.135 -9.767 10.61 4.754 -5.318 10.658 0.252 -0.821 8.557 3.169 0.073 8.554</float_array>
+                    <technique_common>
+                        <accessor count="35" source="#geometry0-position-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="geometry0-normal">
+                    <float_array id="geometry0-normal-array" count="318">0.2033078 -0.6654429 0.7182282 0.2033902 -0.6655185 0.7181348 0.2034201 -0.6655258 0.7181196 0.2013054 -0.6737997 0.7109643 0.2002124 -0.6778722 0.7073926 0.1968895 -0.6900161 0.6965 0.2783812 0.0853403 0.9566718 0.2782943 0.0852102 0.9567087 0.2783812 0.0853403 0.9566718 0.2784681 0.0854704 0.9566349 -0.2863675 0.9581199 0.0 -0.2863675 0.9581199 0.0 -0.2863675 0.9581199 0.0 -0.2863675 0.9581199 0.0 -0.2863675 0.9581199 0.0 -0.9559802 -0.2934312 0.0 -0.9559802 -0.2934312 0.0 -0.9559802 -0.2934312 0.0 -0.9559802 -0.2934312 0.0 -0.1853648 0.6054813 0.7739718 -0.1849621 0.6050428 0.774411 -0.1849904 0.6053032 0.7742007 -0.1851448 0.6056607 0.7738841 -0.1850347 0.6056637 0.773908 -0.1855181 0.6054902 0.773928 -0.185878 0.6054503 0.7738729 -0.1849822 0.6054285 0.7741047 0.9547817 0.2973073 5.775E-4 0.9553598 0.2954448 0.0 0.9552358 0.2958454 1.42E-5 0.9541609 0.2992904 0.0014901 0.9541692 0.2992642 0.0014295 0.9551091 0.2962542 -4.63E-5 0.9550903 0.2963148 0.0 -0.9556076 -0.2946424 0.0 -0.9556076 -0.2946424 0.0 -0.9556076 -0.2946424 0.0 -0.9556076 -0.2946424 0.0 -0.2930262 0.9561044 0.0 -0.2930262 0.9561044 0.0 -0.2930262 0.9561044 0.0 -0.2930262 0.9561044 0.0 0.2733747 -0.9619076 0.0 0.2733747 -0.9619076 0.0 0.2733747 -0.9619076 0.0 0.2733747 -0.9619076 0.0 0.9562453 0.292566 -4.2E-6 0.9562769 0.2924629 0.0 0.9562558 0.2925317 -6.2E-6 0.9562295 0.2926176 -6.2E-6 0.9562243 0.2926346 0.0 -0.9560158 -0.2933154 0.0 -0.9560702 -0.293138 3.91E-5 -0.9560647 -0.2931558 5.78E-5 -0.9560955 -0.2930551 5.78E-5 -0.9565592 -0.2915324 0.0018411 -0.9560747 -0.2931232 8.3E-6 -0.9560294 -0.2932703 -5.497E-4 -0.9572735 -0.2891474 0.0045944 -0.9585145 -0.2848593 0.0102639 -0.2893257 0.9572307 0.0 -0.2893257 0.9572307 0.0 -0.2893257 0.9572307 0.0 -0.2893257 0.9572307 0.0 -0.2893257 0.9572307 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 -0.9589343 -0.2836285 0.0 -0.9589343 -0.2836285 0.0 -0.9589343 -0.2836285 0.0 -0.9589343 -0.2836285 0.0 0.290448 -0.9568908 0.0 0.290448 -0.9568908 0.0 0.290448 -0.9568908 0.0 0.290448 -0.9568908 0.0 -0.295504 0.9553416 0.0 -0.295504 0.9553416 0.0 -0.295504 0.9553416 0.0 -0.295504 0.9553416 0.0 0.2257538 -0.7943016 0.5640213 0.2257384 -0.7942926 0.5640405 0.2257538 -0.7943016 0.5640213 0.2257691 -0.7943109 0.5640022 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.9456423 0.3252085 0.0 0.9456423 0.3252085 0.0 0.9456423 0.3252085 0.0 0.9456423 0.3252085 0.0 0.0809797 -0.2849522 0.9551149 0.0810913 -0.2852988 0.955002 0.0809797 -0.2849522 0.9551149 0.0808681 -0.2846054 0.9552278</float_array>
+                    <technique_common>
+                        <accessor count="106" source="#geometry0-normal-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="geometry0-vertex">
+                    <input semantic="POSITION" source="#geometry0-position"/>
+                </vertices>
+                <triangles count="48" material="default_ai_0.2_sh_0.2_tr_0.0_dc_r_0.8_g_0.8_b_0.8_sc_r_1.0_g_1.0_b_1.0_ec_r_0.0_g_0.0_b_0_tri">
+                    <input offset="0" semantic="VERTEX" source="#geometry0-vertex"/>
+                    <input offset="1" semantic="NORMAL" source="#geometry0-normal"/>
+                    <p>9 10 8 11 13 12 9 10 13 12 12 13 9 10 12 13 33 14 8 15 9 16 1 17 8 15 1 17 0 18 5 27 4 28 32 29 5 27 32 29 30 30 5 27 30 30 31 31 5 27 31 31 17 32 5 27 17 32 16 33 10 34 11 35 12 36 10 34 12 36 13 37 9 38 33 39 34 40 9 38 34 40 20 41 16 42 17 43 18 44 16 42 18 44 19 45 28 46 7 47 6 48 28 46 6 48 26 49 28 46 26 49 27 50 19 51 18 52 21 53 21 53 18 52 14 54 14 54 18 52 15 55 18 52 22 56 15 55 22 56 23 57 15 55 23 57 24 58 15 55 15 55 24 58 25 59 34 60 27 61 26 62 20 63 34 60 26 62 20 63 26 62 29 64 14 69 15 70 11 71 14 69 11 71 10 72 4 73 5 74 6 75 4 73 6 75 7 76 0 77 1 78 2 79 0 77 2 79 3 80 16 85 19 86 5 87 19 86 21 88 5 87 21 88 14 89 5 87 5 87 14 89 6 90 6 90 14 89 26 91 26 91 14 89 29 92 29 92 14 89 3 93 14 89 10 94 3 93 13 95 8 96 10 94 10 94 8 96 3 93 3 93 8 96 0 97 3 98 2 99 20 100 3 98 20 100 29 101</p>
+                </triangles>
+                <triangles count="18" material="default_ai_0.2_sh_0.2_tr_0.0_dc_r_1.0_g_0.2_b_0.2_sc_r_1.0_g_1.0_b_1.0_ec_r_0.0_g_0.0_b_0_tri">
+                    <input offset="0" semantic="VERTEX" source="#geometry0-vertex"/>
+                    <input offset="1" semantic="NORMAL" source="#geometry0-normal"/>
+                    <p>7 0 28 1 4 2 28 1 25 3 4 2 4 2 25 3 32 4 32 4 25 3 24 5 30 6 32 7 24 8 30 6 24 8 23 9 15 19 25 20 28 21 15 19 28 21 27 22 15 19 27 22 34 23 15 19 34 23 33 24 11 25 15 19 33 24 11 25 33 24 12 26 9 65 20 66 2 67 9 65 2 67 1 68 18 81 17 82 31 83 18 81 31 83 22 84 22 102 31 103 30 104 22 102 30 104 23 105</p>
+                </triangles>
+            </mesh>
+        </geometry>
+    </library_geometries>
+    <library_visual_scenes>
+        <visual_scene id="Building_DEBY_LOD2_4781554">
+            <node>
+                <instance_geometry url="#geometry0">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="default_ai_0.2_sh_0.2_tr_0.0_dc_r_0.8_g_0.8_b_0.8_sc_r_1.0_g_1.0_b_1.0_ec_r_0.0_g_0.0_b_0_tri" target="#default_ai_0.2_sh_0.2_tr_0.0_dc_r_0.8_g_0.8_b_0.8_sc_r_1.0_g_1.0_b_1.0_ec_r_0.0_g_0.0_b_0_mat"/>
+                            <instance_material symbol="default_ai_0.2_sh_0.2_tr_0.0_dc_r_1.0_g_0.2_b_0.2_sc_r_1.0_g_1.0_b_1.0_ec_r_0.0_g_0.0_b_0_tri" target="#default_ai_0.2_sh_0.2_tr_0.0_dc_r_1.0_g_0.2_b_0.2_sc_r_1.0_g_1.0_b_1.0_ec_r_0.0_g_0.0_b_0_mat"/>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+        </visual_scene>
+    </library_visual_scenes>
+    <scene>
+        <instance_visual_scene url="#Building_DEBY_LOD2_4781554"/>
+    </scene>
+</COLLADA>
